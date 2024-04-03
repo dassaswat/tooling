@@ -2,20 +2,22 @@
   "name": "@arcbuilders/tooling",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "LogAI Inc",
   "main": "index.js",
   "scripts": {
+    "format:check": "prettier --check .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "LogAI Inc",
-  "license": "ISC",
+  "prettier": "./prettier",
+  "dependencies": {
+    "prettier-plugin-packagejson": "2.4.14"
+  },
   "devDependencies": {
     "eslint": "8.57.0",
     "prettier": "3.2.5",
     "typescript": "5.4.3"
-  },
-  "dependencies": {
-    "prettier-plugin-packagejson": "^2.4.14"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
