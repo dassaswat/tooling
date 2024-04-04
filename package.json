@@ -1,6 +1,6 @@
 {
   "name": "@arcbuilders/tooling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tooling for ESLint, Prettier, and TypeScript",
   "homepage": "https://github.com/dassaswat/tooling#readme",
   "bugs": {
