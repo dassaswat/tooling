@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Arc Builders Base",
-  "docs": "https://github.com/arcbuilders/tooling",
+  "docs": "https://github.com/dassaswat/tooling",
   "compilerOptions": {
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

@@ -6,7 +6,6 @@
  * For more information, see the Prettier documentation:
  * https://github.com/prettier/prettier/blob/main/docs/configuration.md#editorconfig
  */
-
 const explicitDefaultsOverEditorConfig = {
   endOfLine: 'lf',
   tabWidth: 2,

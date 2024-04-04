@@ -1,11 +1,25 @@
 {
   "name": "@arcbuilders/tooling",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "license": "ISC",
-  "author": "LogAI Inc",
+  "description": "Tooling for ESLint, Prettier, and TypeScript",
+  "homepage": "https://github.com/dassaswat/tooling#readme",
+  "bugs": {
+    "url": "https://github.com/dassaswat/tooling/issues"
+  },
+  "license": "MIT",
+  "author": "Saswat Das",
+  "exports": {
+    "./eslint/*": "./eslint/*.js",
+    "./prettier": "./prettier/index.js",
+    "./typescript": "./typescript/tsconfig.base.json",
+    "./typescript/node20": "./typescript/tsconfig.node20.json"
+  },
   "main": "index.js",
+  "files": [
+    "eslint",
+    "prettier",
+    "typescript"
+  ],
   "scripts": {
     "eslint:check": "eslint --max-warnings=0 .",
     "format:check": "prettier --check .",
@@ -14,7 +28,10 @@
   "prettier": "./prettier",
   "dependencies": {
     "@rushstack/eslint-patch": "^1.10.1",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-tsdoc": "^0.2.17",
@@ -25,6 +42,22 @@
     "eslint": "8.57.0",
     "prettier": "3.2.5",
     "typescript": "5.4.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.57.0 <9",
+    "prettier": ">=3.2.5 <4",
+    "typescript": ">=5.4.3 <6"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    },
+    "prettier": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {

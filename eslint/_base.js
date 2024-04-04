@@ -18,9 +18,8 @@ module.exports = {
     require.resolve('./rules/import.js'),
     require.resolve('./rules/variables.js'),
     require.resolve('./rules/possible-errors.js'),
-    require.resolve('./rules/styles.js'),
+    require.resolve('./rules/stylistic.js'),
     require.resolve('./rules/unicorn.js'),
-    require.resolve('./rules/tsdoc.js'),
   ],
 
   env: {

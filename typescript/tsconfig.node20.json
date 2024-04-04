@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./tsconfig.base.json",
   "display": "Arc Builders Node 20",
-  "docs": "https://github.com/arcbuilders/tooling",
+  "docs": "https://github.com/dassaswat/tooling",
   "compilerOptions": {
     "lib": ["es2023"],
     "module": "node16",
