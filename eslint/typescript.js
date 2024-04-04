@@ -1,5 +1,5 @@
 const { TYPESCRIPT_FILES } = require('./constants');
-const requirePackage = require('./utils/require-package');
+const requirePackage = require('./utils/check-require-package');
 
 requirePackage('typescript', 'typescript');
 
