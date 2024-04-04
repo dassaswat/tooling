@@ -6,6 +6,10 @@
   "bugs": {
     "url": "https://github.com/dassaswat/tooling/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dassaswat/tooling.git"
+  },
   "license": "MIT",
   "author": "Saswat Das",
   "exports": {
