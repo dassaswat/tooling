@@ -66,5 +66,8 @@
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=20.12"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
